@@ -1,107 +1,145 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>One Last Ride Customs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="One Last Ride Customs – Built not bought. Motorcycle repair, paint, bodywork, and custom fabrication.">
 
   <style>
-    body {
+    * {
+      box-sizing: border-box;
       margin: 0;
+      padding: 0;
       font-family: Arial, Helvetica, sans-serif;
-      background: #0b0b0b;
-      color: #f5f5f5;
+    }
+
+    body {
+      background-color: #0b0b0b;
+      color: #f2f2f2;
       line-height: 1.6;
     }
 
     header {
       background: #000;
-      padding: 40px 20px;
+      padding: 60px 20px;
       text-align: center;
-      border-bottom: 2px solid #c00;
+      border-bottom: 2px solid #c30000;
     }
 
     header h1 {
-      margin: 0;
-      font-size: 2.6rem;
+      font-size: 3rem;
+      color: #c30000;
       letter-spacing: 2px;
     }
 
     header p {
-      margin-top: 10px;
-      color: #bbb;
-      font-size: 1.1rem;
+      margin-top: 15px;
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+
+    nav {
+      background: #111;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #f2f2f2;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #c30000;
     }
 
     section {
-      padding: 60px 20px;
       max-width: 1100px;
       margin: auto;
+      padding: 60px 20px;
     }
 
-    .hero {
-      text-align: center;
-    }
-
-    .hero h2 {
-      font-size: 2.3rem;
-      color: #c00;
+    section h2 {
+      color: #c30000;
       margin-bottom: 20px;
-    }
-
-    .hero p {
-      font-size: 1.1rem;
-      color: #ddd;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    h2.section-title {
-      text-align: center;
-      color: #c00;
-      margin-bottom: 40px;
       font-size: 2rem;
+      border-bottom: 1px solid #333;
+      padding-bottom: 10px;
     }
 
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 25px;
+    ul {
+      list-style: none;
     }
 
-    .card {
-      background: #111;
-      padding: 25px;
-      border: 1px solid #222;
-      border-radius: 6px;
-      transition: transform 0.2s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-5px);
-      border-color: #c00;
-    }
-
-    .card h3 {
-      color: #c00;
-      margin-top: 0;
-    }
-
-    .contact {
-      text-align: center;
-      background: #000;
-      border-top: 2px solid #c00;
-    }
-
-    .contact p {
-      font-size: 1.1rem;
-      margin: 10px 0;
-      color: #ddd;
+    li {
+      padding: 12px 0;
+      border-bottom: 1px solid #222;
     }
 
     footer {
       background: #000;
       text-align: center;
-      padding: 20px
+      padding: 25px;
+      font-size: 0.9rem;
+      color: #777;
+      border-top: 2px solid #c30000;
+    }
 
-    
+    footer span {
+      color: #c30000;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>ONE LAST RIDE CUSTOMS</h1>
+  <p>Built Not Bought — Repair • Paint • Bodywork • Fabrication</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    One Last Ride Customs is a motorcycle repair and fabrication shop built on
+    real work and real craftsmanship. From mechanical repairs and collision
+    damage to paint, bodywork, and one-off builds — we do it right, start to finish.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <ul>
+    <li>Motorcycle Mechanical Repair</li>
+    <li>Collision & Insurance Work</li>
+    <li>Paint & Bodywork</li>
+    <li>Brakes, Tires & Suspension</li>
+    <li>Custom Fabrication</li>
+    <li>Custom Builds</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p><strong>Phone:</strong> (555) 555-5555</p>
+  <p><strong>Email:</strong> your@email.com</p>
+  <p><strong>Location:</strong> United States</p>
+</section>
+
+<footer>
+  © <span>One Last Ride Customs</span> — All Rights Reserved
+</footer>
+
+</body>
+</html>
+
